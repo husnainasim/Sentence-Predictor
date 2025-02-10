@@ -33,7 +33,7 @@ pip install -r requirements.txt
 streamlit run src/app.py
 ```
 
-Project Structure
+##Project Structure
 ```bash
 sentence-predictor/
 ├── data/                   # Text data for training
@@ -51,7 +51,7 @@ sentence-predictor/
 └── README.md               # Project documentation
 ```
 
-Model Architecture
+##Model Architecture
 The LSTM model architecture consists of:
 
 Embedding Layer (100 dimensions)
@@ -63,7 +63,7 @@ Dropout Layer (0.2 rate)
 Dense Output Layer (Softmax activation)
 
 
-Contributing
+##Contributing
 Contributions are welcome! Please follow these steps:
 
 Fork the project
