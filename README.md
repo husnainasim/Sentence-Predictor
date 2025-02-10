@@ -1,6 +1,6 @@
 # Next Word Prediction with LSTM
 
-![Streamlit Interface](./assets/screenshot.jpeg)  
+![Streamlit Interface](.assets/screenshot.jpg)  
 *Screenshot of the Streamlit Application Interface*
 
 ## Overview
