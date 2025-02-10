@@ -1,6 +1,6 @@
 # Next Word Prediction with LSTM
 
-![Streamlit Interface](./assets/screenshot.png)  
+![Streamlit Interface](./assets/screenshot.jpeg)  
 *Screenshot of the Streamlit Application Interface*
 
 ## Overview
@@ -17,3 +17,10 @@ This project implements an LSTM-based Next Word Prediction model trained on Shak
 ```bash
 git clone https://github.com/yourusername/sentence-predictor.git
 cd sentence-predictor
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+pip install -r requirements.txt
+
+streamlit run src/app.py
