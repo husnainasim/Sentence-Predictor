@@ -24,3 +24,11 @@ cd sentence-predictor
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+3.Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+4.Run the Streamlit application:
+```bash
+streamlit run src/app.py
+```
