@@ -17,7 +17,9 @@ This project implements an LSTM-based Next Word Prediction model trained on Shak
 ```bash
 git clone https://github.com/yourusername/sentence-predictor.git
 cd sentence-predictor
+```bash
 
+2.Create and activate virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
