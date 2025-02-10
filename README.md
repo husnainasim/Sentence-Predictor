@@ -32,3 +32,46 @@ pip install -r requirements.txt
 ```bash
 streamlit run src/app.py
 ```
+
+Project Structure
+```bash
+sentence-predictor/
+├── data/                   # Text data for training
+│   └── hamlet.txt          
+├── models/                 # Pretrained models and tokenizer
+│   ├── next_word_lstm.h5
+│   └── tokenizer.pkl
+├── notebooks/              # Jupyter notebook for experimentation
+│   └── experiments.ipynb  
+├── src/                    # Streamlit application source code
+│   └── app.py              
+├── assets/                 # Screenshots and visual assets
+│   └── screenshot.jpeg
+├── requirements.txt        # Dependency list
+└── README.md               # Project documentation
+```
+
+Model Architecture
+The LSTM model architecture consists of:
+
+Embedding Layer (100 dimensions)
+
+LSTM Layer (150 units)
+
+Dropout Layer (0.2 rate)
+
+Dense Output Layer (Softmax activation)
+
+
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the project
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
